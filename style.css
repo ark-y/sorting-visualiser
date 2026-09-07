@@ -23,6 +23,12 @@ ol {
     text-align: justify;
 }
 
+label {
+    font-family: "Consolas", "Monaco", monospace;
+    color: whitesmoke;
+    text-align: left;
+}
+
 p {
   font-family: "Consolas", "Monaco", monospace;
   color: whitesmoke;
