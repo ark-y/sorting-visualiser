@@ -7,3 +7,28 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: "JetBrains Mono", "Consolas", monospace;
+    color: whitesmoke;
+    letter-spacing: 0.3em;
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+ol {
+    font-family: "Consolas", "Monaco", monospace;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+p {
+  font-family: "Consolas", "Monaco", monospace;
+  color: whitesmoke;
+  text-align: justify;
+}
+
+body {
+  background-color: rgb(33, 36, 41);
+}
