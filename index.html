@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="A website to enter a data set and visualise how it gets sorted with a selected algorithm">
-    
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="A website to enter a data set and visualise how it gets sorted with a selected algorithm"
+    />
+
     <title>Sorting Visualiser</title>
-    
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -22,20 +24,22 @@
       </ol>
 
       <h2>Inputs</h2>
-      <label for="inputs">Define Inputs</label>
       <div class="input-container">
-
-        <input type="text" id="inputs" placeholder="5, 2, 7, 1, 4">
+        <label for="inputs"></label>
+        <textarea
+          id="inputs"
+          placeholder="Enter Data e.g., 5, 2, 8, 1, 4"
+        ></textarea>
       </div>
 
       <h2>Algorithm</h2>
-      <select id="algorithm">
-        <option value="bubbleSort">Bubble Sort</option>
-        <option value="selectionSort">Selection Sort</option>
-        <option value="insertionSort">Insertion Sort</option>
-        <option value="mergeSort">Merge Sort</option>
-        <option value="quickSort">Quick Sort</option>
-      </select>
+      <div class="algorithm-button-group">
+        <button id="bubbleSort">Bubble Sort</button>
+        <button id="insertionSort">Insertion Sort</button>
+        <button id="selectionSort">Selection Sort</button>
+        <button id="mergeSort">Merge Sort</button>
+        <button id="quickSort">Quick Sort</button>
+      </div>
 
       <div class="button-container">
         <button id="visualiseButton">Visualise</button>

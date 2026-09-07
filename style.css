@@ -46,28 +46,68 @@ body {
     justify-content: center;
     text-align: center;
 
+    padding: 30px;
+
 }
 
 .input-container{
     display: flex;
     justify-content: center;
-    text-align: center;
     flex-wrap: wrap;
 }
 
-input[type="text"] {
+.algorithm-button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.algorithm-button-group button {
+    width: 40%;
+
+    font-family: "Consolas", "Monaco", monospace;
+    font-size: 1em;
+    text-transform: lowercase;
+
+    color: whitesmoke;
+    background-color: rgb(33, 36, 41);
+
+    border-radius: 12px;
+    border: 2px solid whitesmoke;
+
+    margin: 3px;
+    padding: 10px;
+}
+
+.algorithm-button-group button:hover {
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+
+  font-weight: bolder;
+  color: #1e09e0;
+
+  transition: 0.2s;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#inputs {
     font-family: "Consolas", "Monaco", monospace;
     font-size: 1em;
     text-align: center;
 
     color: whitesmoke;
     background-color: rgb(33, 36, 41);
-    size: 1em;
 
     padding: 5px 10px;
 
     border-radius: 8px;
     border: 2px solid whitesmoke;
+
+    width: 90%;
+    box-sizing: border-box;
 }
 
 #visualiseButton {
