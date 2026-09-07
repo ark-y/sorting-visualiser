@@ -19,8 +19,10 @@ h2 {
 
 ol {
     font-family: "Consolas", "Monaco", monospace;
+    font-size: 0.9em;
+    line-height: 1.5em;
     color: whitesmoke;
-    text-align: justify;
+    text-align: left;
 }
 
 label {
@@ -45,6 +47,29 @@ body {
     text-align: center;
 
 }
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    font-family: "Consolas", "Monaco", monospace;
+    font-size: 1em;
+    text-align: center;
+
+    color: whitesmoke;
+    background-color: rgb(33, 36, 41);
+    size: 1em;
+
+    padding: 5px 10px;
+
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+}
+
 #visualiseButton {
     font-family: "Consolas", "Monaco", monospace;
     font-size: 1em;
@@ -71,3 +96,4 @@ body {
   transform: scale(1.1);
   transition: 0.2s;
 }
+
