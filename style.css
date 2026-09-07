@@ -39,11 +39,16 @@ body {
   background-color: rgb(33, 36, 41);
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
 #visualiseButton {
     font-family: "Consolas", "Monaco", monospace;
     font-size: 1em;
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 0.2em;
 
     color: whitesmoke;
@@ -59,8 +64,10 @@ body {
 #visualiseButton:hover {
   background-color: whitesmoke;
   border: 2px solid whitesmoke;
+
+  font-weight: bolder;
   color: #1e09e0;
 
   transform: scale(1.1);
-  transition: 0.3s;
+  transition: 0.2s;
 }
