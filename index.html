@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" name="A website to enter a data set and visualise how it gets sorted with a selected algorithm" content="Roughly 155 characters">
+    <meta charset="utf-8">
+    <meta name="description" content="A website to enter a data set and visualise how it gets sorted with a selected algorithm">
+    
     <title>Sorting Visualiser</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <div class="container">
       <h1>SORTED</h1>
+
       <h2>How To Use</h2>
       <ol>
-        <li>Enter a data set separated by commas in the input field below</li>
+        <li>Enter a data set separated by commas</li>
         <li>Select a sorting algorithm</li>
         <li>Click "Visualise"</li>
       </ol>
+
       <h2>Inputs</h2>
-      <input type="text" id="dataInput" placeholder="Enter data separated by commas">
+      <label for="inputs">Enter data:</label>
+      <input type="text" id="inputs" placeholder="5, 2, 7, 1, 4">
+
       <h2>Algorithm</h2>
-      <select id="algorithmSelect">
+      <select id="algorithm">
         <option value="bubbleSort">Bubble Sort</option>
         <option value="selectionSort">Selection Sort</option>
         <option value="insertionSort">Insertion Sort</option>
         <option value="mergeSort">Merge Sort</option>
         <option value="quickSort">Quick Sort</option>
       </select>
+
       <button id="visualiseButton">Visualise</button>
+
       <div id="visualisation"></div>
     </div>
     <script src="script.js"></script>
