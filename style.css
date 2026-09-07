@@ -1,0 +1,14 @@
+h1 {
+    font-family: "Consolas", "Monaco", monospace;
+    color: whitesmoke;
+    letter-spacing: 0.3em;
+}
+
+p {
+  font-family: "Consolas", "Monaco", monospace;
+  color: red;
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+}
